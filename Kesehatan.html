@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SehatYuk! — Teman Sehat Digital Anda</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="Logo SehatYuk" />
+        <h1>SehatYuk!</h1>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#artikel">Artikel</a>
+        <a href="#program">Program</a>
+        <a href="#kontak">Kontak</a>
+        <button id="dark-toggle" class="btn-dark">🌙</button>
+      </nav>
+      <button class="menu-btn" id="menu-btn">☰</button>
+    </div>
+  </header>
+
+<!-- Beranda -->
+<!-- Hero Section -->
+<section class="hero" id="beranda">
+  <div id="particles-js"></div>
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>Sehat Dimulai dari Hati❤️</h1>
+      <p> SehatYuk! membantu kamu menemukan keseimbangan antara tubuh, pikiran, dan kebiasaan sehat — semua dari satu tempat digital.</p>
+      <button id="kenaliBtn" class="btn">Kenali Lebih Dalam</button>
+    </div>
+    <div class="hero-image">
+      <img src="https://cdn-icons-png.flaticon.com/512/706/706164.png" alt="Sayur dan Buah">
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+<!-- Tentang -->
+<section class="about" id="tentang">
+  <div class="container about-inner">
+    <div class="about-left">
+      <img src="https://cdn-icons-png.flaticon.com/512/1533/1533792.png" alt="Hidup Sehat Alami">
+    </div>
+    <div class="about-right">
+      <h2>Kenapa SehatYuk! Diciptakan 🩺</h2>
+      <p>Kami percaya hidup sehat dimulai dari hal-hal kecil yang dilakukan secara konsisten — dari minum air yang cukup, makan buah segar, hingga menjaga mental positif.</p>
+      <p>SehatYuk! hadir untuk menemanimu membangun kebiasaan itu lewat tips ringan, pengingat pintar, dan semangat kecil setiap hari.</p>
+      <a href="#fitur" class="btn-primary">Lihat Fitur Kami</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Fitur -->
+  <section class="features" id="fitur">
+    <div class="container">
+      <h2>Fitur Utama</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4149/4149649.png" alt="BMI" />
+          <h3>Kalkulator BMI</h3>
+          <p>Hitung Indeks Massa Tubuh (BMI) kamu dan ketahui status kesehatanmu.</p>
+          <button id="open-bmi" class="btn-secondary">Coba Sekarang</button>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3176/3176366.png" alt="Air" />
+          <h3>Pengingat Minum Air</h3>
+          <p>Tetap terhidrasi dengan pengingat minum air setiap beberapa jam.</p>
+          <button id="start-water" class="btn-secondary">Aktifkan</button>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3039/3039436.png" alt="Tips" />
+          <h3>Tips Sehat Harian</h3>
+          <p id="tips-text" class="tips"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artikel -->
+  <section class="articles" id="artikel">
+    <div class="container">
+      <h2>Artikel Terbaru</h2>
+      <div class="grid-articles">
+        <article class="article-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4149/4149672.png" alt="Makanan Sehat" />
+          <h3>Pola Makan Seimbang untuk Aktivitas Tinggi</h3>
+          <p>Mengenal pentingnya karbohidrat kompleks, protein, dan serat dalam pola makan harian.</p>
+        </article>
+        <article class="article-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/4010/4010925.png" alt="Tidur Cukup" />
+          <h3>Kenapa Tidur yang Cukup Itu Penting?</h3>
+          <p>Tidur cukup membantu regenerasi sel dan menjaga imunitas tubuh tetap kuat.</p>
+        </article>
+        <article class="article-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/706/706195.png" alt="Olahraga" />
+          <h3>Manfaat Olahraga Ringan Setiap Pagi</h3>
+          <p>Bergerak 15 menit setiap pagi bisa memperbaiki mood dan sirkulasi darah.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program -->
+  <section class="program" id="program">
+    <div class="container">
+      <h2>Program Kesehatan</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Olahraga" />
+          <h3>Gerakan Sehat Pagi</h3>
+          <p>Program olahraga ringan setiap pagi untuk menjaga kebugaran tubuh.</p>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="Nutrisi" />
+          <h3>Pola Makan Seimbang</h3>
+          <p>Edukasi gizi dan nutrisi untuk mendukung gaya hidup sehat dan produktif.</p>
+        </div>
+        <div class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2332/2332887.png" alt="Cek Kesehatan" />
+          <h3>Cek Kesehatan Rutin</h3>
+          <p>Kampanye pemeriksaan kesehatan berkala untuk mendeteksi dini penyakit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="contact" id="kontak">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <form id="contact-form">
+        <input type="text" id="nama" placeholder="Nama Anda" required>
+        <input type="email" id="email" placeholder="Email Anda" required>
+        <textarea id="pesan" rows="4" placeholder="Pesan Anda..." required></textarea>
+        <button type="submit" class="btn-primary">Kirim Pesan</button>
+        <p id="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 SehatYuk! — Teman Sehat Digital Anda.</p>
+    </div>
+    <section class="mood">
+  <div class="container">
+    <h2>Bagaimana Mood Kamu Hari Ini?</h2>
+    <div class="mood-options">
+      <button class="mood-btn" data-mood="😊">Senang</button>
+      <button class="mood-btn" data-mood="😐">Biasa</button>
+      <button class="mood-btn" data-mood="😔">Sedih</button>
+    </div>
+    <p id="mood-result"></p>
+  </div>
+</section>
+
+  </footer>
+<!-- Modal Notifikasi -->
+<div id="custom-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 id="modal-title">Judul</h3>
+    <p id="modal-message">Isi pesan muncul di sini.</p>
+  </div>
+</div>
+<div id="toast"></div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 60 },
+    "size": { "value": 4 },
+    "color": { "value": "#ffffff" },
+    "move": { "speed": 2 },
+    "line_linked": { "enable": false },
+    "opacity": { "value": 0.5 }
+  }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const btn = document.getElementById("kenaliBtn");
+  const tentang = document.getElementById("tentang");
+
+  btn.addEventListener("click", function() {
+    const y = tentang.offsetTop;
+    window.scrollTo({
+      top: y - 70, // biar gak ketutup navbar
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+
+</body>
+</html>
