@@ -195,7 +195,7 @@ header {
   width: 100%;
 }
 
-/* ===== HERO SECTION ===== */
+/* HERO SECTION */
 .hero {
   position: relative;
   width: 100%;
@@ -796,3 +796,39 @@ section, header, footer, .hero, .about, .features, .program, .articles {
   box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
 }
 
+/* ===== Kontak Info Tambahan ===== */
+.kontak-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.kontak-item:hover {
+  transform: translateY(-5px);
+}
+
+.kontak-item img {
+  width: 26px;
+  height: 26px;
+}
+
+.kontak-item a,
+.kontak-item span {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
